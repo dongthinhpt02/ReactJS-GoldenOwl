@@ -1,4 +1,5 @@
-const API_BASE = 'http://localhost:3001';
+// const API_BASE = 'http://localhost:3001';
+const API_BASE = 'https://be-goldenowl.onrender.com';
 
 export const getScoresBySBD = async (sbd: string) => {
   const res = await fetch(`${API_BASE}/score/${sbd}`);
