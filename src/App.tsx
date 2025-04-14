@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import ScoreBySBD from './components/ScoreBySBD';
 import ScoreSummary from './components/ScoreSumary';
 import TopStudents from './components/TopStudents';
-import { useState } from 'react';
 
 function App() {
 
@@ -18,7 +17,7 @@ function App() {
          
 
           {/* Sidebar */}
-          <aside className="sidebar" >
+          <aside className="sidebar">
             <h3>Menu</h3>
             <ul>
               <li style={{ marginBottom: '10px' }}><Link to="/top10">Dashboard</Link></li>
